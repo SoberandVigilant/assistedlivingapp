@@ -188,7 +188,7 @@ section:nth-child(even){
 }
 
 .services .box-container{
-    display: flex;
+    
     grid-template-columns: repeat(auto-fit, minmax(27rem));
     gap:2rem;
     
