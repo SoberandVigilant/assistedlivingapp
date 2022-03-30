@@ -189,9 +189,7 @@ section:nth-child(even){
 
 .services .box-container{
     
-    grid-template-columns: repeat(auto-fit, minmax(27rem));
-    gap:2rem;
-    
+  
 }
 
 .services .box-container .box{
@@ -220,10 +218,16 @@ section:nth-child(even){
     line-height: 2;
 }
 
+.services .box-container .box img{
+    flex: 1 1 45rem;
+    flex: grid;
+    width: 50%
+}
+
 .about .row{
  display: flex;
  align-items: center;
- flex-wrap: wrap;
+ flex-wrap:;
  gap:2rem;
 }
 
